@@ -145,6 +145,7 @@ a {
 }
 
 .site-logo {
+  display: block;
   width: 72px;
   height: auto;
   min-height: 52px;
