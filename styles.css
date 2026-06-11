@@ -144,15 +144,16 @@ a {
   gap: 0.85rem;
 }
 
-.brand-mark {
-  display: grid;
-  place-items: center;
-  width: 44px;
-  height: 44px;
+.site-logo {
+  width: 46px;
+  height: 46px;
   border-radius: 14px;
-  background: linear-gradient(135deg, var(--primary), var(--secondary));
+  object-fit: contain;
   box-shadow: 0 20px 40px rgba(59, 130, 246, 0.18);
-  font-weight: 800;
+}
+
+.brand-mark {
+  display: none;
 }
 
 .brand strong {
