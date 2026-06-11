@@ -145,12 +145,14 @@ a {
 }
 
 .site-logo {
-  width: 52px;
-  height: 52px;
-  border-radius: 16px;
-  background: rgba(255, 255, 255, 0.04);
-  padding: 6px;
-  box-shadow: 0 20px 40px rgba(59, 130, 246, 0.18);
+  width: 72px;
+  height: auto;
+  min-height: 52px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.06);
+  padding: 8px;
+  box-shadow: 0 24px 52px rgba(59, 130, 246, 0.22);
+  object-fit: contain;
 }
 
 .brand-mark {
