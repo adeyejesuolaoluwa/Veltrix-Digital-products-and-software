@@ -145,10 +145,11 @@ a {
 }
 
 .site-logo {
-  width: 46px;
-  height: 46px;
-  border-radius: 14px;
-  object-fit: contain;
+  width: 52px;
+  height: 52px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.04);
+  padding: 6px;
   box-shadow: 0 20px 40px rgba(59, 130, 246, 0.18);
 }
 

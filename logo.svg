@@ -1,0 +1,19 @@
+<svg width="240" height="64" viewBox="0 0 240 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="logoTitle logoDesc">
+  <title id="logoTitle">Veltrix logo</title>
+  <desc id="logoDesc">A modern gradient V icon with Veltrix wordmark.</desc>
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e5e7eb"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <path d="M10 54 26 12 44 54 36 54 30 38 24 54Z" fill="url(#logoGradient)"/>
+    <path d="M54 12h28l14 12v16c0 9-8 18-18 18h-24V12Zm22 10-4 4h4v-4Z" fill="url(#logoGradient)"/>
+    <text x="92" y="40" fill="url(#textGradient)" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700">Veltrix</text>
+  </g>
+</svg>
